@@ -32,6 +32,7 @@ LOCAL_C_INCLUDES := \
 	$(TOP)/hardware/samsung_slsi/exynos/libdisplay \
 	$(TOP)/hardware/samsung_slsi/exynos/libexynosutils \
 	$(TOP)/hardware/samsung_slsi/$(TARGET_SOC)/include \
+	$(TOP)/system/core/libsync/include \
 	$(TOP)/hardware/samsung_slsi/$(TARGET_SOC)/libhwcmodule
 
 LOCAL_ADDITIONAL_DEPENDENCIES += \
